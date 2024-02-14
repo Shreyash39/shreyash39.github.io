@@ -36,7 +36,8 @@ V.**CH101**: *Physical Chemistry: Dr.E.S.lyer*
 
 # Hobbies, Interests, Extracurricular Activities, Projects
  ## My hobbies and interests :
- *1.Dance
+ *
+ 1.Dance
  2. Drawing 
  3. Basketball
  4. Singing
