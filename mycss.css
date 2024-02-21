@@ -1,0 +1,114 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+/* About Me Section */
+.about-me {
+  border: 2pt solid black;
+  background-color: lightcoral;
+  padding: 20px;
+}
+
+.about-me h2 {
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 13pt;
+  text-align: left;
+}
+
+.about-me img {
+  width: 172px;
+  height: 172px;
+  float: right;
+  margin-left: 20px;
+}
+
+.about-me .description {
+  font-family: sans-serif;
+  color: blue;
+}
+
+/* Education Section */
+.education {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.education table {
+  width: 100%;
+  border-spacing: 10px;
+}
+
+.education th, .education td {
+  padding: 10px;
+}
+
+.education th {
+  text-align: left;
+}
+
+.education td:nth-child(2) {
+  text-align: center;
+}
+
+/* Course @IIT Goa Section */
+.courses {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spring-semester, .autumn-semester {
+  width: 45%;
+  background-color: lightgreen;
+  border: 3pt solid green;
+  padding: 10px;
+}
+
+.spring-semester ul, .autumn-semester ol {
+  list-style-type: none;
+  padding: 0;
+}
+
+.spring-semester li, .autumn-semester li {
+  margin-bottom: 10px;
+}
+
+.spring-semester .course-link, .autumn-semester .course-link {
+  color: blue;
+}
+
+.spring-semester .course-link:visited, .autumn-semester .course-link:visited {
+  color: gray;
+}
+
+.spring-semester .course-link:hover, .autumn-semester .course-link:hover {
+  color: green;
+}
+
+.spring-semester .course-link:active, .autumn-semester .course-link:active {
+  color: pink;
+}
+
+.autumn-semester ol {
+  list-style-type: upper-roman;
+}
+
+/* Hobbies Section */
+.hobbies {
+  background-color: #fff0f5;
+  padding: 20px;
+}
+
+.hobbies ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hobbies li {
+  margin-bottom: 10px;
+}
+
+
